@@ -1,4 +1,3 @@
-
 // Define a utilização do model cliente e a dependência http-status
 const Cliente = require('../models/cliente');
 const status = require('http-status');
@@ -103,4 +102,3 @@ exports.Delete = (req, res, next) => {
         })
         .catch(error => next(error));
 };
- 
